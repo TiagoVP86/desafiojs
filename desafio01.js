@@ -12,9 +12,9 @@
 // idade: 15 - eua => saída: false
 // idade: 18 - eua => saída: false
 
-var idade = parseInt(prompt("Digite a idade:"));
-var nacionalidade = prompt("Digite a nacionalidade:");
+let idade = parseInt(prompt("Digite a idade:"));
+let nacionalidade = prompt("Digite a nacionalidade:");
 
-var elegivel = idade >= 16 && nacionalidade.toLowerCase() === "brasileira";
+let elegivel = idade >= 16 && nacionalidade.toLowerCase() === "brasileira";
 
 alert(elegivel);

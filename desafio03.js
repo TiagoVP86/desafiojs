@@ -10,13 +10,13 @@
 // navegador: Firefox - sistemaOperacional: Sony => Saída: false
 // navegador: Safari - sistemaOperacional: Mac => Saída: false
 
-var navegador = prompt("Digite o navegador:");
-var sistemaOperacional = prompt("Digite o sistema operacional:");
+let navegador = prompt("Digite o navegador:");
+let sistemaOperacional = prompt("Digite o sistema operacional:");
 
 navegador = navegador.toLowerCase();
 sistemaOperacional = sistemaOperacional.toLowerCase();
 
-var atendeCondicoes =
+let atendeCondicoes =
   (navegador === "chrome" || navegador === "firefox") &&
   (sistemaOperacional === "windows" || sistemaOperacional === "mac");
 

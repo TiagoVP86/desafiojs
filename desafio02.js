@@ -14,11 +14,11 @@
 // Salário: 5000 - Score: 699 - idade: 18 => Saída: false
 // Salário: 5000 - Score: 700 - idade: 17 => Saída: false
 
-var salario = parseFloat(prompt("Digite o salário:"));
-var scoreDeCredito = parseInt(prompt("Digite o score de crédito:"));
-var idade = parseInt(prompt("Digite a idade:"));
+let salario = parseFloat(prompt("Digite o salário:"));
+let scoreDeCredito = parseInt(prompt("Digite o score de crédito:"));
+let idade = parseInt(prompt("Digite a idade:"));
 
-var emprestimoAprovado =
+let emprestimoAprovado =
   salario >= 5000 && scoreDeCredito >= 700 && idade >= 18;
 
 alert(emprestimoAprovado);

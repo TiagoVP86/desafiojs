@@ -13,11 +13,11 @@
 // idade: 45 - compraMinima: 120 - isNewClient: false => Saída: false
 // idade: 55 - compraMinima: 50 - isNewClient: false => Saída: false
 
-var idade = parseInt(prompt("Digite a idade:"));
-var compraMinima = parseFloat(prompt("Digite o valor da compra mínima:"));
-var isNewClient =
+let idade = parseInt(prompt("Digite a idade:"));
+let compraMinima = parseFloat(prompt("Digite o valor da compra mínima:"));
+let isNewClient =
   prompt("O cliente é novo? (true/false)").toLowerCase() === "true";
 
-var possuiDesconto = idade >= 60 && compraMinima >= 100 && !isNewClient;
+let possuiDesconto = idade >= 60 && compraMinima >= 100 && !isNewClient;
 
 alert(possuiDesconto);
