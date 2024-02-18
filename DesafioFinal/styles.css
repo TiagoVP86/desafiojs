@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background-color: #202124; /* cor de fundo escura */
+  color: #ffffff; /* cor do texto branca */
+}
+
+.addTaskButton {
+  margin-top: 15px;
+  background-color: #4caf50; /* cor de fundo do botão */
+  color: white; /* cor do texto do botão */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.addTaskButton:hover {
+  background-color: #45a049; /* cor de fundo do botão ao passar o mouse */
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  width: 250px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Estilo do botão de exclusão */
+button {
+  background-color: #f44336; /* cor de fundo do botão de exclusão */
+  color: white; /* cor do texto do botão de exclusão */
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #d32f2f; /* cor de fundo do botão de exclusão ao passar o mouse */
+}
