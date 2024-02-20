@@ -15,4 +15,4 @@ for (let chave in valores) {
   soma += valores[chave];
 }
 
-console.log("A soma dos valores é:", soma);
+console.log(`A soma dos valores é: ${soma}`);

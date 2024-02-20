@@ -13,4 +13,4 @@ for (let i = 1; i <= 10; i++) {
   }
 }
 
-console.log(expressao + "=" + soma);
+console.log(`${expressao} = ${soma}`);

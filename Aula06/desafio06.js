@@ -8,7 +8,7 @@ let encontrado = false;
 
 for (let i = 0; i < numeros.length; i++) {
   if (numeros[i] === numeroProcurado) {
-    console.log("Achei o número", numeroProcurado);
+    console.log(`Achei o número ${numeroProcurado}`);
     encontrado = true;
     break;
   }
